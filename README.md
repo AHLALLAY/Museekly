@@ -18,18 +18,19 @@
 ---
 
 ## 🎯 Compétences visées
-- 📝 Planifier le travail à effectuer individuellement et en équipe afin d'optimiser le travail nécessaire à l'atteinte de l'objectif visé niveau 3, transposer
-- 🤝 Contribuer au pilotage de l'organisation du travail individuel et collectif afin de faciliter la communication, la collaboration et la gestion des imprévus au sein de l'équipe: niveau 3, transposer
-- 🔍 Définir le périmètre d'un problème rencontré en adoptant une démarche inductive afin de permettre la recherche de solution: niveau 3, transposer
-- 💡 Rechercher de façon méthodique une ou des solutions au problème rencontré afin de retenir une solution adaptée au contexte: niveau 3, transposer
-- 📚 Partager la solution adoptée en utilisant les moyens de partage de connaissance ou de documentation disponibles afin de contribuer au développement de la connaissance de l'entreprise: niveau 3, transposer
-- 🏢 Se familiariser avec les codes et la culture propres à son environnement professionnel afin d'y faciliter son intégration: niveau 3, transposer
-- ✨ Interagir dans un contexte professionnel de façon respectueuse et constructive pour favoriser la collaboration: niveau 3, transposer
-- 🗣️ Faciliter un temps de travail collectif en assurant une communication constructive entre les participants dans un cadre de travail clair pour permettre l'implication de tous: niveau 3, transposer
-- ⚙️ Installer et configurer son environnement de travail en fonction du projet web ou web mobile: niveau 3, transposer
-- 🎨 Réaliser des interfaces utilisateur statiques web ou web mobile: niveau 3, transposer
-- ⚡ Développer la partie dynamique des interfaces utilisateur web ou web mobile: niveau 3, transposer
-
+| Compétence | Niveau |
+|-------------------|--------|
+| 📝 Planifier le travail à effectuer individuellement et en équipe afin d'optimiser le travail nécessaire à l'atteinte de l'objectif visé | niveau 3, transposer |
+| 🤝 Contribuer au pilotage de l'organisation du travail individuel et collectif afin de faciliter la communication, la collaboration et la gestion des imprévus au sein de l'équipe | niveau 3, transposer |
+| 🔍 Définir le périmètre d'un problème rencontré en adoptant une démarche inductive afin de permettre la recherche de solution | niveau 3, transposer |
+| 💡 Rechercher de façon méthodique une ou des solutions au problème rencontré afin de retenir une solution adaptée au contexte | niveau 3, transposer |
+| 📚 Partager la solution adoptée en utilisant les moyens de partage de connaissance ou de documentation disponibles afin de contribuer au développement de la connaissance de l'entreprise | niveau 3, transposer |
+| 🏢 Se familiariser avec les codes et la culture propres à son environnement professionnel afin d'y faciliter son intégration | niveau 3, transposer |
+| ✨ Interagir dans un contexte professionnel de façon respectueuse et constructive pour favoriser la collaboration | niveau 3, transposer |
+| 🗣️ Faciliter un temps de travail collectif en assurant une communication constructive entre les participants dans un cadre de travail clair pour permettre l'implication de tous | niveau 3, transposer |
+| ⚙️ Installer et configurer son environnement de travail en fonction du projet web ou web mobile | niveau 3, transposer |
+| 🎨 Réaliser des interfaces utilisateur statiques web ou web mobile | niveau 3, transposer |
+| ⚡ Développer la partie dynamique des interfaces utilisateur web ou web mobile | niveau 3, transposer |
 ---
 
 ## 🛠️ Fonctionnalités Requises :
