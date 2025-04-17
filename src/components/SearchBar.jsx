@@ -6,13 +6,21 @@ export default function SearchBar() {
 
     const fetchdata = async (e) => {
         e.preventDefault();
-
+    
         if (!searchInput.trim()) {
             setError('Search field is empty');
             return;
         }
+    
+        const [artist, ...songParts] = searchInput.split('-');
+        const song = songParts.map(p => p.trim()).join(' ');
+        console.log(songParts);
 
-        console.log(searchInput);
+        const lyrics = `https://api.lyrics.ovh/v1/${encodeURIComponent(artist.trim())}/${encodeURIComponent(song.trim())}`;
+        console.log(lyrics);
+        const artiste = `https://api.lyrics.ovh/suggest/${encodeURIComponent(artist.trim())}`;
+        console.log(artiste);
+        
     }
 
     return (
