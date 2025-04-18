@@ -36,13 +36,14 @@ export default function SearchBar() {
                 const [artiste, ...songParts] = searchInput.split('-');
                 const song = songParts.map(p => p.trim()).join(' ');
                 if (!artiste || !song) throw new Error('Invalid format for lyrics');
-                
+
                 const artistUrl = `https://api.lyrics.ovh/suggest/${encodeURIComponent(searchInput.trim())}`;
                 localStorage.setItem('artiste', artistUrl);
                 const lyricsUrl = `https://api.lyrics.ovh/v1/${encodeURIComponent(artiste.trim())}/${encodeURIComponent(song.trim())}`;
                 localStorage.setItem('lyrics', lyricsUrl);
             }
-    
+            window.location.reload();
+            
         } catch (err) {
             setError(err.message);
         } finally {
@@ -51,7 +52,7 @@ export default function SearchBar() {
     }
 
     return (
-        <div className="bg-slate-800 flex flex-col items-center pt-4 px-6 min-h-screen">
+        <div className="bg-slate-800 flex flex-col items-center pt-4 px-6 pb-4">
             <div className="absolute top-4 right-4">
                 <Help />
             </div>
