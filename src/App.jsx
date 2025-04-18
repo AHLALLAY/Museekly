@@ -1,4 +1,5 @@
 import SearchBar from "./components/SearchBar";
+import Suggest from "./components/Suggest";
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -8,6 +9,7 @@ export default function App() {
       
       <main className="flex-grow">
         {/* Autres sections iront ici */}
+        <Suggest />
       </main>
       
       <footer className="flex justify-center py-4 bg-slate-800 text-white">
